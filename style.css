@@ -1,0 +1,119 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo>img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    height: max-content;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul>li{
+    padding: 5px;
+    font-size: 20px;
+}
+ul>li:hover{
+    color: rgb(146, 166, 183);
+    cursor: pointer;
+}
+.container{
+    margin: 0px;
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 80%;
+    border-radius: 30px;
+    text-align: center;
+}
+.play-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.forward{
+    color: white;
+    padding: 5px 5px;
+}
+.On{
+    color: white;
+    padding: 5px 5px;
+}
+.back{
+    color: white;
+    padding: 5px 5px;
+}
+footer{
+    background-color: black;
+}
+.range-up{
+    display: flex;
+    justify-content: center;
+
+}
+.range>input{
+    width: 1000px;
+}
+.music-poster>img{
+    width: 120px;
+}
+.music-playlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.music{
+    padding: 10px;
+}
+.playing>img{
+    width: 80px;
+}
+#playing{
+    opacity: 0;
+    transition: 0.2s;
+
+}
+.music:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#play_button{
+    cursor: pointer;
+}
+#next_button{
+    cursor: pointer;
+}
+#previous_button{
+    cursor: pointer;
+}
+#song_progress{
+    transition: 0.0004s;
+    cursor: pointer;
+}
+#time_bar{
+    color: white;
+    padding: 10px 10px;
+}
